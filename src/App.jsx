@@ -1,19 +1,28 @@
-import Layouts from './components/Layouts/Layouts'
-import Home from './pages/Home/Home'
-import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } from 'react-router-dom'
+import './App.css'
 
 export default function App() {
-
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path='/' element={<Layouts />}>
-        <Route index element={<Home />} />
-      </Route>
-    )
-  )
   return (
-    <div>
-      <RouterProvider router={router} />
+    <div className='body'>
+      <div className='body-container'>
+         <div className='juice'>
+          <img src="./src/photo/juice.png" alt="" />
+          <div className='title1'>
+            <p className='p1'>Organic Juice</p>
+          </div>
+         </div>
+         <div className='food'>
+          <img src="./src/photo/food.png" alt="" />
+          <div className='title2'>
+            <p className='p2'>Organic Food</p>
+          </div>
+         </div>
+         <div className='nuts'>
+          <img src="./src/photo/nuts.png" alt="" />
+          <div className='title3'>
+            <p className='p3'>Nuts Cookis</p>
+          </div>
+         </div>
+      </div>
     </div>
   )
 }

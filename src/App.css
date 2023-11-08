@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body {
+  width: 1920px;
+  height: 957px;
+  top: 7847px;
+  padding: 187px 0px 187px 0px;
+  gap: 10px;
+  color: #F1F8F4;
+}
+
+.body-container {
+  Width: 1920px;
+  Height: 583px;
+  Gap: 42px;
+  display: flex;
+}
+
+.juice{
+  width: 612px;
+  height: 583px;
+}
+
+.food{
+  width: 612px;
+  height: 583px;
+}
+
+.nuts {
+  width: 612px;
+  height: 583px;
+}
+img{
+  width: 612px;
+  height: 583px;
+}
+
+.title1 {
+  background-color: #FFFFFF;
+  width: 320px;
+  height: 96px;
+  top: 430px;
+  left: 146px;
+  border-radius: 20px;
+  padding: 33px 88px 34px 83px;
+  gap: 10px;
+  position: absolute;
+}
+.title2 {
+  background-color: #FFFFFF;
+  width: 316px;
+  height: 96px;
+  top: 430px;
+  left: 800px;
+  border-radius: 20px;
+  padding: 33px 88px 34px 83px;
+  gap: 10px;
+  position: absolute;
+}
+.title3 {
+  background-color: #FFFFFF;
+  width: 303px;
+  height: 96px;
+  top: 430px;
+  left: 1454px;
+  border-radius: 20px;
+  padding: 33px 88px 34px 83px;
+  gap: 10px;
+  position: absolute;
+}
+.p1{
+  font-family: Roboto;
+  width: 154px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29.3px;
+  color: #274C5B;
+}
+.p2{
+  font-family: Roboto;
+  width: 150px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29.3px;
+  color: #274C5B;
+}
+.p3{
+  font-family: Roboto;
+  width: 137px;
+  height: 29px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29.3px;
+  color: #274C5B;
+}
