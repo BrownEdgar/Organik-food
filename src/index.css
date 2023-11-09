@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: 'Yellowtail', cursive;
-  src: url('./assets/fonts//Yellowtail-Regular.ttf');
+  font-family: "Yellowtail", cursive;
+  src: url("./assets/fonts/Yellowtail-Regular.ttf");
 }
 
 body {
