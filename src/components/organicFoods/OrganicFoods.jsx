@@ -14,34 +14,27 @@ export default function OrganicFoods() {
         <button className='btn'>More News <BsFillArrowRightCircleFill className='btn-icon'/></button>
       </div>
       <div className="item">
-        <div className="item-left">
-          <span className='item-abs'>
-            <span className='text'>25 Nov</span>
-          </span>
-          <div className="item-left-info">
-            <div className="user">
-              <BiSolidUser className='user-icon'/>
-              <p className='user-name'> By Rachi Card</p>
-            </div>
-            <p className='user-title'>The Benefits of Vitamin D & How to Get It</p>
-            <p className='user-info'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-            <button className='btn-yellow'>Read More <BsFillArrowRightCircleFill className='btn-icon'/></button>
-          </div>
-        </div>
-        <div className="item-right">
-          <span className='item-abs'>
-            <span className='text'>25 Nov</span>
-          </span>
-          <div className="item-right-info">
-            <div className="user">
-              <BiSolidUser className='user-icon'/>
-              <p className='user-name'> By Rachi Card</p>
-            </div>
-            <p className='user-title'>The Benefits of Vitamin D & How to Get It</p>
-            <p className='user-info'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-            <button className='btn-yellow'>Read More <BsFillArrowRightCircleFill className='btn-icon'/></button>
-          </div>
-        </div>
+        {
+          organicFoods.map(food=> {
+            return(
+              <div key = {food.id} className='item-cover'>
+                <img src={food.image} alt="" />
+                <span className='item-abs'>
+                  <span className='text'>25 Nov</span>
+                </span>
+                <div className="item-info">
+                  <div className="user">
+                    <BiSolidUser className='user-icon'/>
+                    <p className='user-name'> By Rachi Card</p>
+                  </div>
+                  <p className='user-title'>{food.title}</p>
+                  <p className='user-info'>{food.desc}</p>
+                  <button className='btn-yellow'>Read More <BsFillArrowRightCircleFill className='btn-icon'/></button>
+                </div>
+              </div>
+            )
+          })
+        }
       </div>
     </div>
   )
