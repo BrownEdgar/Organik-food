@@ -1,0 +1,98 @@
+@import "../../sass/variables";
+header {
+  width: 100%;
+  background-color: #fff(200, 146, 75);
+  height: 204px;
+  border-bottom: 1px solid teal;
+  padding: 70px 162px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #111;
+  nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    ul {
+      width: 564px;
+      height: 100%;
+      align-items: center;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      li {
+        a {
+          color: $title-color;
+          font-weight: 700;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    form {
+      position: relative;
+      input {
+        border-radius: 36px;
+        width: 376px;
+        height: 60px;
+        padding: 20px;
+        background: #fafafa;
+        border: 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      span {
+        width: 56px;
+        height: 56px;
+        top: 5px;
+        left: 314px;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: #7eb693;
+        img {
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .header-cart {
+    border-radius: 33px;
+    border: 2px solid #ccc;
+    padding: 4px 24px 4px 4px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    & > .icon {
+      font-size: 18px;
+      width: 56px !important;
+      height: 56px !important;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 50%;
+      justify-content: center;
+      background-color: $title-color;
+      img {
+        color: #fff;
+      }
+    }
+    span.cart {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+    }
+  }
+}
