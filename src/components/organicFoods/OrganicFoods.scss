@@ -1,0 +1,175 @@
+@import "../../sass/variables";
+
+%buttonstyle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 2px solid #274C5B;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  width: 220px;
+  height: 80px;
+  padding: 28px 45px 29px 45px;
+  font-family: $roboto-font;
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 700;
+  color: #274C5B;
+  cursor: pointer;
+}
+
+%infostyle {
+  width: 677px;
+  height: 524px;
+  border-radius: 30px;
+}
+
+%iteminfo {
+  color: #274C5B;;
+  .user {
+    display: flex;
+    gap: 5px;
+    &-icon{
+      display: inline-block;
+      color: #EFD372;
+      width: 18px;
+      height: 20px;
+    }
+  &-name {
+    display: inline-block;
+    width: 111px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+  }
+  .user-title {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29.3px;
+  }
+  .user-info {
+    font-family: $open-sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.77px;
+  }
+  position: absolute;
+  width: 613px;
+  height: 330px;
+  top: 262px;
+  left: 32px;
+  border-radius: 31px 34px 30px 30px;
+  padding: 46px 57px 60px 57px;
+  background-color: white;
+  font-family: $roboto-font;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+%yellowbuttonstyle {
+  width: 220px;
+  height: 80px;
+  border-radius: 18px;
+  padding: 28px 47px 29px 47px;
+  font-family: $roboto-font;
+  background-color: #EFD372;
+  color: #274C5B;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.44px;
+  display: flex;
+  gap: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  height: 815px;
+  .news {
+    color: #7EB693;
+    font-family: $italic-yellowtail-font;
+    font-size: 36px;
+    line-height: 49.06px;
+    font-weight: 400;
+    width: 68px;
+    height: 49px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 48px;
+    .title {
+      font-size: 50px;
+      color: #274C5B;
+      font-weight: 800;
+      line-height: 58.59px;
+      height: 118px;
+      width: 702px;
+      font-family: $roboto-font;
+      display: inline-block;
+    }
+    .btn {
+      @extend %buttonstyle;
+      &-icon {
+        right: 25px;
+        width: 19px;
+        height: 19px;
+      }
+    }
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 592px;
+    &-left {
+      position: relative;
+      @extend %infostyle;
+      background-image: url("Photo1.png");
+      &-info {
+        @extend %iteminfo;
+        .btn-yellow {
+          @extend %yellowbuttonstyle
+        }
+      }
+    }
+    &-right {
+      position: relative;
+      @extend %infostyle;
+      background-image: url("Photo2.png");
+      &-info {
+        @extend %iteminfo;
+        .btn-yellow {
+          @extend %yellowbuttonstyle
+        }
+      }
+    }
+    &-abs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 43px;
+      left: 32px;
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      background-color: white;
+      .text {
+        display: inline-block;
+        width: 36px;
+        height: 51px;
+        font-size: 25px;
+        line-height: 23.44px;
+        font-family: $roboto-font;
+        font-weight: 800;
+        text-align: center;
+        color: #274C5B;
+      }
+    }
+  }
+}

@@ -16,12 +16,12 @@ const initialState = [
 ]
 
 const productsSlice = createSlice({
-  name: 'organicFoods',
+  name: "organicFoods",
   initialState: initialState,
   reducers: {}
 })
 
 
 
-export const getAllFoods = (state) => state.organicFoods
+export const getAllOrganicFoods = (state) => state.organicFoods
 export default productsSlice.reducer
