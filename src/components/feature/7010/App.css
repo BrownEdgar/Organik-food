@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+img {
+  Width: 1400px;
+  Height: 323px;
+  Top: 9981px;
+  Left: 260px;
+}
+
+.container {
+  Width: 2084px;
+  Height: 739px;
+  Top: 9635px;
+  Left: -93px;
+}
+
+.section {
+  Width: 1258px;
+  Height: 113px;
+  Left: 331px;
+  Gap: 326px;
+  position: absolute;
+}
+
+.section-box1 {
+  Width: 357px;
+  Height: 113px;
+  top: -220px;
+  left: -180px;
+  position: absolute;
+}
+
+.p {
+  position: absolute;
+  font-family: Roboto;
+  right: 30px;
+  font-weight: 800;
+  font-size: 50px;
+  Line-height: 58.59px;
+  color: #FFFFFF;
+}
+
+.email {
+  Width: 350px;
+  Height: 70px;
+  border-radius: 16px;
+  position: absolute;
+  top: -195px;
+  left: 484px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21.09px;
+  padding: 10px;
+  border: none;
+  color: #ABABAB;
+  font-size:18px ;
+}
+
+.section-button {
+  Width: 220px;
+  Height: 70px;
+  border-radius: 16px;
+  Padding: 28px 47px 29px 47px;
+  Gap: 10px;
+  background-color: #274C5B;
+  position: absolute;
+  top: -195px;
+  left: 840px;
+  border: none;
+  cursor: pointer;
+}
+
+.Subscribe {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  position: absolute;
+  top: 22px;
+  left: 65px;
+}
