@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Organik {
+    position: relative;
+    width: 1660px;
+    height: 931px;
+    background-color: #FFFFFF;
+    top: 6916px;
+
+    &-image {
+        display: flex;
+        width: 952px;
+    }
+
+    &-box {
+        position: absolute;
+        top: 11%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        left: 871px;
+        width: 789px;
+        height: 723px;
+        background-color: #FFFFFF;
+    }
+
+    &-titlebox {
+        position: absolute;
+        width: 700px;
+        height: 568px;
+        top: 19%;
+        left: 960px;
+        gap: 35px;
+    }
+
+    &-title {
+        width: 166px;
+        height: 49px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49.06px;
+        font-family: 'Yellowtail', cursive;
+        color: #7EB693;
+    }
+
+    &-econis {
+        width: 700px;
+        height: 118px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        line-height: 58.59px;
+        color: #274C5B;
+    }
+
+    &-childbox {
+        width: 635px;
+        height: 96px;
+        gap: 7px;
+        margin-top: 5%;
+    }
+
+    &-childtitle {
+        width: 323px;
+        height: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        color: #274C5B;
+    }
+
+    &-childtext {
+        width: 635px;
+        height: 60px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        color: #525C60;
+    }
+}
