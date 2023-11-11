@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Yellowtail&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Yellowtail&display=swap');
-
+@import "../../sass/variables";
 .limon-website {
-  width: 1920px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-color: #F9F8F8;
+  background-color: #f9f8f8;
 }
 .content {
   width: 1400px;
@@ -36,25 +32,25 @@
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
-    color: #7EB693;
+    color: #7eb693;
   }
   h2 {
-    font-family: Roboto;
+    font-family: $roboto-font;
     font-size: 50px;
     font-weight: 800;
     line-height: 59px;
     letter-spacing: 0em;
     text-align: left;
-    color: #274C5B;
+    color: #274c5b;
   }
   p {
-    font-family: Open Sans;
+    font-family: $open-sans-font;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    color: #525C60;
+    color: #525c60;
   }
   .sub-div {
     display: flex;
@@ -73,7 +69,7 @@
         line-height: 29px;
         letter-spacing: 0em;
         text-align: left;
-        color: #274C5B;
+        color: #274c5b;
       }
       p {
         font-family: Open Sans;
@@ -82,7 +78,7 @@
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
-        color: #525C60;
+        color: #525c60;
       }
     }
   }
@@ -93,7 +89,7 @@
     padding: 28px, 39px, 28px, 39px;
     border-radius: 16px;
     gap: 10px;
-    background-color: #274C5B;
+    background-color: #274c5b;
     margin-top: 15px;
     font-family: Roboto;
     font-size: 20px;
@@ -101,10 +97,7 @@
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
   }
 }
-
-
-

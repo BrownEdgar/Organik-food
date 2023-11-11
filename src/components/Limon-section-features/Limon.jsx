@@ -1,7 +1,6 @@
-import React from 'react';
 import './Limon.scss';
 
-const Limon = () => {
+export default function Limon() {
   const iconData = [
     {
       src: 'images/icon-1.png',
@@ -37,18 +36,18 @@ const Limon = () => {
           </p>
           {iconData.map((data, index) => (
             <div className="sub-div" key={index}>
-                <img src={data.src} alt={data.alt} className="icon" />
-                <div>
-                  <h4>{data.title}</h4>
-                  <p>{data.text}</p>
-                </div>
+              <img src={data.src} alt={data.alt} className="icon" />
+              <div>
+                <h4>{data.title}</h4>
+                <p>{data.text}</p>
               </div>
+            </div>
           ))}
           <button>Click me</button>
         </div>
       </div>
     </div>
   );
-};
+}
 
-export default Limon;
+
