@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header>
       <nav>
-        <div>
+        <div className='logo'>
           <Link>
             <img src="./Logo.png" alt="logo" />
           </Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
         </form>
         <div className="header-cart">
           <span className="icon">
-            <img src="./Icon.png" alt="" />
+            <img src="./Icon.svg" alt="cart-logo" />
           </span>
           <span className='cart'>Cart(0)</span>
         </div>
