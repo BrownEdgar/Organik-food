@@ -1,0 +1,46 @@
+.container {
+  background-image: url("./background.jpg");
+  width: 1400px;
+  height: 323px;
+  display: flex;
+  margin: 120px auto;
+  & > div {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  &-box1 {
+    p {
+      color: #fff;
+      font-family: "Roboto";
+      font-size: 50px;
+      text-align-last: left;
+      font-weight: 800;
+    }
+  }
+  form {
+    input {
+      height: 70px;
+      border-radius: 16px;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 20px;
+      padding: 10px;
+      border: none;
+      color: #ababab;
+      font-size: 18px;
+      margin: 0 4px;
+      &[type="submit"] {
+        background-color: #274c5b;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        width: 220px;
+      }
+    }
+  }
+  .email {
+    width: 350px;
+  }
+}
