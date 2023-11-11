@@ -1,6 +1,6 @@
-import './App.css'
+import './section.css'
 
-export default function App() {
+export default function Section() {
   return (
     <div className='container'>
       <img src="./background.jpg" alt="background" />
