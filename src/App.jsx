@@ -1,13 +1,13 @@
 import Layouts from './components/Layouts/Layouts'
-import Home from './pages/Home/Home'
+import Limon from './pages/Limon-section-features/Limon'
 import { Route, RouterProvider, createRoutesFromElements, createBrowserRouter } from 'react-router-dom'
 
 export default function App() {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Layouts />}>
-        <Route index element={<Home />} />
+      <Route>
+        <Route index element={<Limon />} />
       </Route>
     )
   )
