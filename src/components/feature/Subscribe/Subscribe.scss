@@ -1,9 +1,12 @@
-.container {
+@import "../../../sass/variables";
+.Subscribe {
   background-image: url("./background.jpg");
   width: 1400px;
   height: 323px;
   display: flex;
   margin: 120px auto;
+  font-family: $roboto-font;
+
   & > div {
     flex-basis: 50%;
     display: flex;
@@ -13,7 +16,6 @@
   &-box1 {
     p {
       color: #fff;
-      font-family: "Roboto";
       font-size: 50px;
       text-align-last: left;
       font-weight: 800;

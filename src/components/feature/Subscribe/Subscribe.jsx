@@ -1,14 +1,14 @@
-import './Section.scss'
+import './Subscribe.scss'
 
-export default function Section() {
+export default function Subscribe() {
   return (
-    <div className='container'>
+    <div className='Subscribe'>
 
 
-      <div className='container-box1'>
+      <div className='Subscribe-box1'>
         <p>Subscirbe to <br />our Newsletter</p>
       </div>
-      <div className='container-box2'>
+      <div className='Subscribe-box2'>
         <form>
           <input type="email" className='email' placeholder='Your Email Address' />
           <input type="submit" value="Subscribe" />

@@ -1,0 +1,110 @@
+@import "../../sass/variables";
+header {
+  width: 100%;
+  height: 204px;
+  font-family: $roboto-font;
+  background-color: #fff;
+  border-bottom: 1px solid teal;
+  padding: 70px 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #111;
+  gap: 20px;
+  nav {
+    height: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    ul {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      li {
+        a {
+          color: $title-color;
+          font-weight: 700;
+          font-size: 20px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 66px;
+
+    form {
+      position: relative;
+      height: 100%;
+      input {
+        border-radius: 36px;
+        width: 376px;
+        height: 100%;
+        padding: 20px;
+        background: #fafafa;
+        border: 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      span {
+        width: 56px;
+        height: 56px;
+        top: 5px;
+        right: 5px;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+        background-color: #7eb693;
+        img {
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .header-cart {
+    border-radius: 33px;
+    border: 1px solid #e0e0e0;
+    padding: 4px 24px 4px 4px;
+    display: flex;
+    align-items: center;
+    color: $title-color;
+    gap: 20px;
+    & > .icon {
+      font-size: 18px;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: $title-color;
+      img {
+        color: #fff;
+        width: 24px;
+        height: 22px;
+      }
+    }
+    span.cart {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+    }
+  }
+  .logo {
+    margin-right: 60px;
+  }
+}

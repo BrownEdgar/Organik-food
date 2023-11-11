@@ -1,0 +1,54 @@
+@import "./../../sass/variables";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&family=Yellowtail&display=swap");
+
+.Offer {
+  display: flex;
+  gap: 36px;
+  align-items: flex-start;
+  text-align: left;
+  position: relative;
+  img {
+    border-radius: 30px;
+  }
+  .text-first {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    gap: 5px;
+    top: 110px;
+    left: 56px;
+    color: white;
+    span {
+      font-family: $italic-yellowtail-font;
+      font-size: 36px;
+      font-weight: 400;
+    }
+    h2 {
+      font-family: $roboto-font;
+      font-size: 40px;
+      font-weight: 800;
+    }
+  }
+  .text-second {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 278px;
+    gap: 5px;
+    top: 110px;
+    left: 774px;
+    span {
+      font-family: $italic-yellowtail-font;
+      font-size: 36px;
+      font-weight: 400;
+      color: $secondary-title-color;
+    }
+    h2 {
+      font-family: $roboto-font;
+      font-size: 40px;
+      font-weight: 800;
+      color: $title-color;
+    }
+  }
+}
